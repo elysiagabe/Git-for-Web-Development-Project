@@ -1,0 +1,27 @@
+https://codepen.io/elysia-gabe/pen/KKwedew?editors=1100
+
+Review Questions: 
+1. What is the difference between an inline element and a block element? 
+
+2. What happens when an element is positioned absolutely? 
+
+3. How do I make an element take up only the amoutn of space it needs but also have the ability to give it a width?
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+5. In your own words, explain the box model. What is the fix for the box model? 
+
+
+
+
+---
+
+What's a merge conflict and how do you resolve it? 
+
+Research Git commands pull, rebase and merge. 
+
+Research Git commands reset, revert and clean. 
+
+Research & set up GUI Git console. 
+
+Research and setup SSH keys with GitHub, so you don't need ot input username/pw every time you push. 
