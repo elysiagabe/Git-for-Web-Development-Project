@@ -159,7 +159,7 @@ Stretch  Questions:
 
     4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
         block: divs, p's, headers
-        inline: links, images
+        inline: links, span
         inline-block: button
 
     5. In your own words, explain the box model. What is the fix for the box model? 
@@ -168,7 +168,7 @@ Stretch  Questions:
             2. Padding (transparent space between the content and border)
             3. border
             4. Margin (transparent space just outside of the border)
-        The problem with the box model is that, if you specify the width or height of an element, that's only going to adjust the size of the content and does not account for any padding, borders or margins you may add. In other words, it's not accounting for all the space the whole box is taking up, so you'd have to keep this in mind and do weird calculations every time you were adjusting the display of the webpage or risk breaking the layout. However, you can fix this with the following global CSS code: 
+        The problem with the box model is that, if you specify the width or height of an element, that's only going to adjust the size of the content and does not account for any padding you may add. In other words, it's not really accounting for the space the block is taking up, so you'd have to keep this in mind and do weird calculations every time you were adjusting the display of the webpage or risk breaking the layout. However, you can fix this with the following global CSS code: 
             * {
                 box-sizing: border-box; 
             }
